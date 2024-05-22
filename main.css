@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: cursive;
+  background-color: orangered;
+}
+
+.container {
+  font-size: 60px;
+  font-weight: 900;
+  background-color: black;
+  color: orange;
+  width: 400px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: skew(-20deg);
+}
+.time {
+  transform: skew(20deg);
+}
